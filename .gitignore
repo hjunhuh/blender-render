@@ -1,0 +1,6 @@
+# render outputs and Blender backups
+render/frames/
+render/tests/
+*.mp4
+*.mov
+*.blend1
