@@ -2,6 +2,20 @@
 
 Apple 스타일 알루미늄 슬랩(모서리 곡선 + 다이아몬드 컷 챔퍼)을 실사 렌더로 360도 회전 영상까지 뽑는 프로젝트입니다.
 
+## 샘플 렌더
+
+![정면](docs/images/sample_front.jpg)
+
+| 회전 중 (30프레임) | 측면 (60프레임) | 후면 (90프레임) |
+|---|---|---|
+| ![회전 중](docs/images/sample_angle.jpg) | ![측면](docs/images/sample_edge.jpg) | ![후면](docs/images/sample_back.jpg) |
+
+정면과 후면은 1080p 최종 품질, 회전 중과 측면은 960 x 540 테스트 렌더입니다.
+
+**렌더 최적화 전후 비교** (왼쪽 33초, 오른쪽 11초, 같은 90프레임)
+
+![최적화 전후 비교](docs/images/compare_speed.jpg)
+
 ## 파일 구성
 
 | 경로 | 내용 |
